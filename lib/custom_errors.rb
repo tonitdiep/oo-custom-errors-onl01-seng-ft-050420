@@ -14,7 +14,7 @@ class Person
           puts error.message
       end
     else
-    person.partner = self
+      person.partner = self
     end
   end
   class PartnerError < StandardError
